@@ -2,21 +2,27 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
 import { 
+  FaJava,
   FaReact, 
   FaNodeJs, 
   FaDatabase, 
   FaDocker,
   FaGitAlt,
-  FaAws
+  FaAws,
+  FaJira,
+  FaBitbucket
 } from 'react-icons/fa';
 import { 
-  SiTypescript,
   SiJavascript,
   SiPython,
-  SiMongodb,
-  SiPostgresql,
-  SiRedux
+  SiHtml5,
+  SiTypescript,
+  SiMysql,
 } from 'react-icons/si';
+import { 
+  DiVisualstudio 
+
+} from "react-icons/di";
 
 const SkillsSection = styled.section`
   min-height: 100vh;
@@ -157,10 +163,10 @@ const skillCategories = [
     icon: <FaReact />,
     skills: [
       { name: 'React', icon: <FaReact /> },
+      { name: 'HTML', icon: <SiHtml5 /> },
       { name: 'TypeScript', icon: <SiTypescript /> },
       { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'Redux', icon: <SiRedux /> },
-    ],
+      ],
   },
   {
     title: 'Backend',
@@ -168,18 +174,18 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', icon: <FaNodeJs /> },
       { name: 'Python', icon: <SiPython /> },
-      { name: 'MongoDB', icon: <SiMongodb /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql /> },
+      { name: 'Java', icon: <FaJava /> },
+      { name: 'MySQL', icon: <SiMysql /> },
     ],
   },
   {
     title: 'DevOps',
-    icon: <FaDocker />,
+    icon: <DiVisualstudio />,
     skills: [
-      { name: 'Docker', icon: <FaDocker /> },
+      { name: 'Visual', icon: <DiVisualstudio /> },
       { name: 'Git', icon: <FaGitAlt /> },
-      { name: 'AWS', icon: <FaAws /> },
-      { name: 'CI/CD', icon: <FaDatabase /> },
+      { name: 'Jira', icon: <FaJira /> },
+      { name: 'Bitbucket', icon: <FaBitbucket /> },
     ],
   },
 ];
