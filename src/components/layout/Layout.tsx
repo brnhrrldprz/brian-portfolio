@@ -98,28 +98,6 @@ const Logo = styled(motion.div)`
   font-weight: 700;
 `;
 
-const NavLinks = styled.div`
-  display: flex;
-  gap: ${theme.spacing.lg};
-
-  a {
-    color: ${theme.colors.textLight};
-    transition: all ${theme.transitions.default};
-    font-weight: 500;
-    padding: ${theme.spacing.xs} ${theme.spacing.sm};
-    border-radius: 4px;
-
-    &:hover {
-      color: ${theme.colors.light};
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-  }
-
-  @media (max-width: ${theme.breakpoints.sm}) {
-    gap: ${theme.spacing.md};
-  }
-`;
-
 const Main = styled.main`
   flex: 1;
   margin-top: 4.5rem;
