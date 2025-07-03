@@ -43,11 +43,12 @@ jobs:
         uses: actions/configure-pages@v4
         with:
         enablement: true
+        static_site_generator: jekyll
+        source: .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload dist folder
-          path: './dist'
+          path: './docs'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
