@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { theme } from '../../styles/theme';
 import { keyframes } from '@emotion/react';
 import { lazy, Suspense } from 'react';
+import { SiCredly } from 'react-icons/si';
 const FaGithub = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaGithub })));
 const FaLinkedin = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaLinkedin })));
 const FaEnvelope = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaEnvelope })));
@@ -169,6 +170,18 @@ export const Hero = () => {
                   <FaEnvelope aria-hidden="true" />
                 </Suspense>
                 <span className="sr-only">Email</span>
+              </a>
+              <a 
+                href="https://www.credly.com/users/brianharroldperez/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View my Credly profile"
+                role="listitem"
+              >
+                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />}>
+                  <SiCredly aria-hidden="true" />
+                </Suspense>
+                <span className="sr-only">Credly</span>
               </a>
             </SocialLinks>
           </div>
