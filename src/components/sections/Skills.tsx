@@ -5,10 +5,7 @@ import {
   FaJava,
   FaReact, 
   FaNodeJs, 
-  FaDatabase, 
-  FaDocker,
   FaGitAlt,
-  FaAws,
   FaJira,
   FaBitbucket
 } from 'react-icons/fa';
