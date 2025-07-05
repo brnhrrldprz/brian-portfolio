@@ -253,8 +253,9 @@ const Contact = () => {
                 <span className="sr-only">Facebook</span>
               </SocialLink>
               <SocialLink
-                href="src/assets/resume.pdf"
-                download
+                href="https://drive.google.com/uc?export=download&id=1dPvtp98Z-QM0jDpeGRpANBWd9-Lg_7by"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
                 role="listitem"
                 aria-label="Download my resume"
