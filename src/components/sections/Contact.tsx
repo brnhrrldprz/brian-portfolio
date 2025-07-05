@@ -252,16 +252,15 @@ const Contact = () => {
                 <FaFacebook aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </SocialLink>
-                            <SocialLink 
+              <SocialLink
                 href="src/assets/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                download
                 whileHover={{ y: -5 }}
                 role="listitem"
-                aria-label="Follow me on Facebook"
+                aria-label="Download my resume"
               >
                 <BiSolidFilePdf aria-hidden="true" />
-                <span className="sr-only">Facebook</span>
+                <span className="sr-only">Resume</span>
               </SocialLink>
             </SocialLinks>
           </ContactContent>
