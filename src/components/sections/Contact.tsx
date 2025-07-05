@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
 import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BiSolidFilePdf } from "react-icons/bi";
 
 const ContactSection = styled.section`
   position: relative;
@@ -249,6 +250,17 @@ const Contact = () => {
                 aria-label="Follow me on Facebook"
               >
                 <FaFacebook aria-hidden="true" />
+                <span className="sr-only">Facebook</span>
+              </SocialLink>
+                            <SocialLink 
+                href="src/assets/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ y: -5 }}
+                role="listitem"
+                aria-label="Follow me on Facebook"
+              >
+                <BiSolidFilePdf aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </SocialLink>
             </SocialLinks>

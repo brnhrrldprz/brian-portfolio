@@ -179,9 +179,9 @@ const projects = [
   {
     id: 1,
     title: "Alertol",
-    description: "An Android Application for Drowsiness Detection using facial recognition. [Capstone Project]",
+    description: "An Android Application for Drowsiness Detection using facial recognition.",
     image: "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13177-019-00199-w/MediaObjects/13177_2019_199_Fig3_HTML.png",
-    techStack: ["Java", "Android", "ML Kit"],
+    techStack: ["Thesis Capstone", "Java", "Android", "ML Kit"],
     githubUrl: "https://github.com/brnhrrldprz/Alertol",
     liveUrl: "https://github.com/brnhrrldprz/Alertol",
   },

@@ -44,8 +44,8 @@ const NavContainer = styled.nav`
 const NavList = styled.ul<{ open: boolean }>`
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding: 10px 20px;
+  gap: 40px;
+  padding: 15px 20px;
   border-radius: 8px;
 
   @media (max-width: ${theme.breakpoints.sm}) {
