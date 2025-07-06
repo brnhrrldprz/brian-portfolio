@@ -187,10 +187,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "N/A",
-    description: "N/A",
+    title: " ",
+    description: " ",
     image: "https://via.placeholder.com/400x200",
-    techStack: ["N/A"],
+    techStack: [" "],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
