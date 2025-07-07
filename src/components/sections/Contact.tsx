@@ -86,7 +86,7 @@ const ContactEmail = styled(motion.a)`
   display: inline-flex;
   align-items: center;
   gap: ${theme.spacing.sm};
-  font-size: clamp(0.5rem, 2vw, 1.2rem);
+  font-size: clamp(0.4rem, 1vw, 1.2rem);
   color: ${theme.colors.accent};
   margin-bottom: ${theme.spacing.lg};
   padding: ${theme.spacing.sm} ${theme.spacing.lg};
